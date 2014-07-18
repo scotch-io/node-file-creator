@@ -22,7 +22,7 @@ app.get('/download', function(req, res) {
 		"Content-Disposition":"attachment; filename=\"Hello.json\"",
 		"Content-Type": "application/json"
 	});
-	res.send(sample);
+	res.send(JSON.stringify(sample, null, 2));
 });
 
 // start the server
