@@ -1,0 +1,7 @@
+{
+  "name": "node-file-creator",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.6.1"
+  }
+}
